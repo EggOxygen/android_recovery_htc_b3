@@ -70,7 +70,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     property_get("ro.boot.mid", bootmid);
 
     if (strstr(bootmid, "0PL210000")) {
-        /* b3uhl (b3tuhl) */
+        /* htv31 (htv31) */
         property_set("ro.build.product", "htc_b3uhl");
         property_set("ro.product.device", "htc_b3uhl");
         property_set("ro.product.model", "HTV31");

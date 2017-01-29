@@ -1,8 +1,8 @@
-TeamWin Recovery Project
+###TeamWin Recovery Project
 
-Device files for HTC Butterfly 3 (HTV31)
-Codename: B3 B3UHL HTV31
+###Device files for HTC Butterfly 3 (HTV31)
+###Codename: B3 B3UHL HTV31
 
-Builds with OmniROM android-6.0 tree
+###Builds with OmniROM android-6.0 tree
 
 
