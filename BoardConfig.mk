@@ -72,6 +72,8 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_USES_MMCUTILS := true
 TARGET_PREBUILT_KERNEL := device/htc/b3/prebuilt/kernel
 TARGET_RECOVERY_DEVICE_MODULES := chargeled
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # TWRP Build Flags
 TW_THEME := portrait_hdpi
@@ -80,6 +82,7 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_CRYPTO := true
 TW_NO_EXFAT_FUSE := true
 TW_NO_SCREEN_BLANK := true
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
 # Vendor Init
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
