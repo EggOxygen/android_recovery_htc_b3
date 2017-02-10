@@ -76,6 +76,11 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.product.model", "HTV31");
         property_set("ro.telephony.default_network", "9");
         property_set("telephony.lteOnGsmDevice", "1");
+    } else {
+        /* b3 (b3uhl) */
+        property_set("ro.build.product", "htc_b3uhl");
+        property_set("ro.product.device", "htc_b3uhl");
+        property_set("ro.product.model", "HTC Butterfly 3");
     }
 
 
